@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1171218451.svg)](https://doi.org/10.5281/zenodo.18843464)
+![CI](https://github.com/Yongjin0207/2DPIV/actions/workflows/ci.yml/badge.svg)
 # 2DPIV
 
 ---
