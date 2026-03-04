@@ -5,11 +5,11 @@ import unittest
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-SCRIPT = REPO_ROOT / "2DPIV.py"
+SCRIPT = REPO_ROOT / "2DPPIViewer.py"
 EXAMPLE = REPO_ROOT / "tests" / "data" / "example.drw"
 
 
-class Test2DPIVSmoke(unittest.TestCase):
+class Test2DPPIViewerSmoke(unittest.TestCase):
     def test_script_exists(self):
         self.assertTrue(SCRIPT.exists(), f"Missing script: {SCRIPT}")
 
